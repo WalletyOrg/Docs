@@ -11,8 +11,12 @@ Chain state
 YOUR_API_KEY
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="network=" type="String" required="true" %}
+Network
+{% endswagger-parameter %}
+
 {% swagger-parameter in="path" name="currency=" type="String" %}
-dollar/euro/pound
+dollar/euro/pound (defaults to dollar)
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Example response >" %}
