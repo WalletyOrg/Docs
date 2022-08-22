@@ -1,13 +1,15 @@
 # Test
 
-Test:
+{% swagger method="get" path="/" baseUrl="https://api.wallety.org" summary="" %}
+{% swagger-description %}
+`Test server`
+{% endswagger-description %}
 
-`api.wallety.org`
-
-Example response:
-
-`{`
-
-`"responce": 200`
-
-`}`
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+"response": 200
+}
+```
+{% endswagger-response %}
+{% endswagger %}
