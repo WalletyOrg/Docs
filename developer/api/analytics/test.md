@@ -1,6 +1,6 @@
 # Test
 
-{% swagger method="get" path="/" baseUrl="https://api.wallety.org" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org" summary="" %}
 {% swagger-description %}
 `Test server`
 {% endswagger-description %}

@@ -1,23 +1,27 @@
 # Chain state
 
-`/`_`chain-state`_`?`_`api_key=API_KEY`_
+{% swagger method="get" path="" baseUrl="/chain-state" summary="" %}
+{% swagger-description %}
 
-default to dollar worth unless specified with currency=dollar/euro/pound
+{% endswagger-description %}
 
-__
+{% swagger-parameter in="path" name="api_key=" required="true" type="String" %}
 
-_Example response:_
+{% endswagger-parameter %}
 
-_`{`_
+{% swagger-parameter in="path" name="currency=" type="String" %}
+dollar/euro/pound
+{% endswagger-parameter %}
 
-_`"coin_price": "",`_
-
-_`"percentage_change_24hr": "",`_
-
-_`"market_cap": "",`_
-
-_`"block_number": "",`_
-
-_`"last_gas": {"coin_amount": "", "fiat_worth": ""}`_
-
-_`}`_
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+"coin_price": "",
+"percentage_change_24hr": "",
+"market_cap": "",
+"block_number": "",
+"last_gas": {"coin_amount": "", "fiat_worth": ""}
+}
+```
+{% endswagger-response %}
+{% endswagger %}
