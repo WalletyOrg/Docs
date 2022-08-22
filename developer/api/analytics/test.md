@@ -1,8 +1,6 @@
----
-description: Test our server
----
-
 # Test
+
+Test our server
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org" summary="" %}
 {% swagger-description %}
