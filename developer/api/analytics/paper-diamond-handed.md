@@ -1,23 +1,45 @@
 # Paper/diamond handed
 
-`/paper-handed?wallet_address=WALLET_ADDRESS&&api_key=API_KEY`
+{% swagger method="get" path="" baseUrl="/diamond-handed" summary="" %}
+{% swagger-description %}
 
-Example response:
+{% endswagger-description %}
 
-`{`
+{% swagger-parameter in="path" name="api_key=" required="true" type="String" %}
 
-`"diamond_handed: ""`
+{% endswagger-parameter %}
 
-`}`
+{% swagger-parameter in="path" name="wallet_address=" required="true" type="String" %}
 
+{% endswagger-parameter %}
 
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+"diamond_handed: ""
+}
+```
+{% endswagger-response %}
+{% endswagger %}
 
-`/diamond-handed?wallet_address=WALLET_ADDRESS&&api_key=API_KEY`
+{% swagger method="get" path="" baseUrl="/paper-handed" summary="" %}
+{% swagger-description %}
 
-Example response:
+{% endswagger-description %}
 
-`{`
+{% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
 
-`"paper_handed": ""`
+{% endswagger-parameter %}
 
-`}`
+{% swagger-parameter in="path" name="wallet_address=" required="true" type="String" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+"paper_handed": ""
+}
+```
+{% endswagger-response %}
+{% endswagger %}

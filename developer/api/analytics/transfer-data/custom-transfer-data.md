@@ -1,19 +1,34 @@
 # Custom transfer data
 
-`/custom-transfers?wallet_address=WALLET_ADDRESS&&api_key=API_KEY&&from=FROM&&to=TO`
+{% swagger method="get" path="" baseUrl="/custom-transfers" summary="" %}
+{% swagger-description %}
 
+{% endswagger-description %}
 
+{% swagger-parameter in="path" name="api_key=" required="true" type="String" %}
 
-Example response:&#x20;
+{% endswagger-parameter %}
 
-`{`
+{% swagger-parameter in="path" name="wallet_address=" required="true" type="String" %}
 
-`"time_period": "",`
+{% endswagger-parameter %}
 
-`"total": {"volume": {}, "gas": {}, "failed_`_`gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}`_
+{% swagger-parameter in="path" name="from=" type="String" required="true" %}
 
-`"`_`deposit`_`": {"volume": {}, "`_`successful_transfers": "", "first_transaction": {}, "last_transaction": {}}`_
+{% endswagger-parameter %}
 
-`"`_`withdrawal`_`": {"volume": {}, "gas": {}, "failed_`_`gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}`_
+{% swagger-parameter in="path" name="to=" required="true" %}
 
-_`}`_
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+"time_period": "",
+"total": {"volume": {}, "gas": {}, "failed_gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}
+"deposit": {"volume": {}, "successful_transfers": "", "first_transaction": {}, "last_transaction": {}}
+"withdrawal": {"volume": {}, "gas": {}, "failed_gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}
+}
+```
+{% endswagger-response %}
+{% endswagger %}
