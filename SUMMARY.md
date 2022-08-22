@@ -1,13 +1,13 @@
 # Table of contents
 
-## Introduction
+## 📜 Introduction
 
 * [Intro to Wallety](README.md)
 * [Getting Started](introduction/getting-started.md)
 * [Demo](https://www.wallety.org/demo)
 * [Roadmap](https://www.wallety.org/roadmap)
 
-## Developer
+## ⚙ Developer
 
 * [API](developer/api/README.md)
   * [Introduction](developer/api/introduction/README.md)
@@ -32,7 +32,7 @@
   * [Swap](developer/api/swap.md)
   * [Bridge](developer/api/bridge.md)
 
-## Contact Us
+## 👋 Contact Us
 
 * [Contact](contact-us/contact.md)
 
