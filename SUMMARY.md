@@ -38,4 +38,4 @@
 
 ***
 
-* [Wallety.org](https://www.wallety.org)
+* [🌐 Wallety.org](https://www.wallety.org)
