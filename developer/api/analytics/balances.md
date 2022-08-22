@@ -1,21 +1,26 @@
 # Balances
 
-`/balances?wallet_address=WALLET_ADDRESS&&api_key=API_KEY`
+{% swagger method="get" path="" baseUrl="/balances" summary="" %}
+{% swagger-description %}
 
-default to dollar worth unless specified with currency=dollar/euro/pound
+{% endswagger-description %}
 
+{% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
+YOUR_API_KEY
+{% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
+WALLET_ADDRESS
+{% endswagger-parameter %}
 
-Example response:
-
-`{`
-
-_`"total_balance": {"coin": "", "fiat_worth": ""},`_
-
-_`"t`_`ransferable`_`_balance": {"coin": "", "fiat_worth": ""},`_
-
-_`"locked_balance": {"coin": "", "fiat_worth": ""},`_
-
-_`"reserved_balance": {"coin": "", "fiat_worth": ""}`_
-
-_`}`_
+{% swagger-response status="200: OK" description="Example response >" %}
+```javascript
+{
+"total_balance": {"coin": "", "fiat_worth": ""},
+"transferable_balance": {"coin": "", "fiat_worth": ""},
+"locked_balance": {"coin": "", "fiat_worth": ""},
+"reserved_balance": {"coin": "", "fiat_worth": ""}
+}
+```
+{% endswagger-response %}
+{% endswagger %}

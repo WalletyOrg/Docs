@@ -1,23 +1,29 @@
 # Chain state
 
-`/`_`chain-state`_`?`_`api_key=API_KEY`_
+The specified chains token price, percentage change (24hr), market cap, current block number and last gas paid by a user on chain in token/fiat
 
-default to dollar worth unless specified with currency=dollar/euro/pound
+{% swagger method="get" path="" baseUrl="/chain-state" summary="" %}
+{% swagger-description %}
+Chain state
+{% endswagger-description %}
 
-__
+{% swagger-parameter in="path" name="api_key=" required="true" type="String" %}
+YOUR_API_KEY
+{% endswagger-parameter %}
 
-_Example response:_
+{% swagger-parameter in="path" name="currency=" type="String" %}
+dollar/euro/pound
+{% endswagger-parameter %}
 
-_`{`_
-
-_`"coin_price": "",`_
-
-_`"percentage_change_24hr": "",`_
-
-_`"market_cap": "",`_
-
-_`"block_number": "",`_
-
-_`"last_gas": {"coin_amount": "", "fiat_worth": ""}`_
-
-_`}`_
+{% swagger-response status="200: OK" description="Example response >" %}
+```javascript
+{
+"coin_price": "",
+"percentage_change_24hr": "",
+"market_cap": "",
+"block_number": "",
+"last_gas": {"coin_amount": "", "fiat_worth": ""}
+}
+```
+{% endswagger-response %}
+{% endswagger %}
