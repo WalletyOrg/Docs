@@ -1,11 +1,9 @@
----
-description: https API endpoints
----
-
 # API endpoints
 
-**Networks:**
+| Network  | Endpoint                 | Status   |
+| -------- | ------------------------ | -------- |
+| Polkadot | polkadot.api.wallety.org | Main net |
+| Kusama   | kusama.api.wallety.org   | Main net |
+|          |                          |          |
 
-Polkadot:- polkadot.api.wallety.org
-
-Kusama:- kusama.api.wallety.org
+****
