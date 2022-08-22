@@ -15,7 +15,7 @@
     * [Service Status](developer/api/introduction/service-status.md)
     * [API endpoints](developer/api/introduction/api-endpoints.md)
   * [Analytics](developer/api/analytics/README.md)
-    * [Server test](developer/api/analytics/server-test.md)
+    * [Server test](developer/api/analytics/test.md)
     * [Chain state](developer/api/analytics/chain-state.md)
     * [On chain identity](developer/api/analytics/on-chain-identity.md)
     * [Balances](developer/api/analytics/balances.md)
