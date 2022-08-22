@@ -36,11 +36,6 @@
 
 * [Contact](contact-us/contact.md)
 
-## Policies
-
-* [Disclaimer](policies/disclaimer.md)
-* [Privacy Policy](policies/privacy-policy.md)
-
 ***
 
 * [Wallety.org](https://www.wallety.org)
