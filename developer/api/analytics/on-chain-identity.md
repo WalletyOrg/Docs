@@ -1,27 +1,21 @@
 # On chain identity
 
-{% swagger method="get" path="" baseUrl="/on-chain-identity" summary="" %}
-{% swagger-description %}
+`/on-chain-identity?wallet_`_`address=WALLET_ADDRESS&&api_key=API_KEY`_
 
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
 
-{% endswagger-parameter %}
+Example response :
 
-{% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
+`{`
 
-{% endswagger-parameter %}
+`"display_name": "",`
 
-{% swagger-response status="200: OK" description="" %}
-```javascript
-{
-"display_name": "",
-"legal_name": "",
-"index": ""
-"role": ""
-"socials": {"twitter": "", "website": "", "email": "", "element": ""}
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+`"legal_name": "",`
+
+`"index": ""`
+
+`"role": ""`
+
+`"socials": {"twitter": "", "website": "", "email": "", "element": ""}`
+
+`}`

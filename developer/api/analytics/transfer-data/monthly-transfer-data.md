@@ -1,26 +1,19 @@
 # Monthly transfer data
 
-{% swagger method="get" path="" baseUrl="/monthly-transfers" summary="" %}
-{% swagger-description %}
+`/monthly-transfers?wallet_address=WALLET_ADDRESS&&api_key=API_KEY`
 
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
 
-{% endswagger-parameter %}
+Example response:&#x20;
 
-{% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
+`{`
 
-{% endswagger-parameter %}
+`"time_period": "",`
 
-{% swagger-response status="200: OK" description="" %}
-```javascript
-{
-"time_period": "",
-"total": {"volume": {}, "gas": {}, "failed_gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}
-"deposit": {"volume": {}, "successful_transfers": "", "first_transaction": {}, "last_transaction": {}}
-"withdrawal": {"volume": {}, "gas": {}, "failed_gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+`"total": {"volume": {}, "gas": {}, "failed_`_`gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}`_
+
+`"`_`deposit`_`": {"volume": {}, "`_`successful_transfers": "", "first_transaction": {}, "last_transaction": {}}`_
+
+`"`_`withdrawal`_`": {"volume": {}, "gas": {}, "failed_`_`gas": {}, "transfers": "", "successful_transfers": "", "failed_transfers": "", "first_transaction": {}, "last_transaction": {}}`_
+
+_`}`_

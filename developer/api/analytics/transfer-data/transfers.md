@@ -1,24 +1,15 @@
 # Transfers
 
-{% swagger method="get" path="" baseUrl="/transfers" summary="" %}
-{% swagger-description %}
+`/transfers?wallet_address=WALLET_ADDRESS&&api_key=API_KEY`
 
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
 
-{% endswagger-parameter %}
+Example response:
 
-{% swagger-parameter in="path" name="wallet_address=" required="true" type="String" %}
+`{`
 
-{% endswagger-parameter %}
+`"deposits": {"display_`_`name": "", "wallet_address": "", "amount": "", "amount_fiat_worth": "", "date": "", "time": "", "days_since": "", "fee": "", "fee_fiat_worth"},`_&#x20;
 
-{% swagger-response status="200: OK" description="" %}
-```javascript
-{
-"deposits": {"display_name": "", "wallet_address": "", "amount": "", "amount_fiat_worth": "", "date": "", "time": "", "days_since": "", "fee": "", "fee_fiat_worth"}, 
-"withdrawals": {"display_name": "", "wallet_address": "", "amount": "", "amount_fiat_worth": "", "date": "", "time": "", "days_since": "", "fee": "", "fee_fiat_worth"}
-}
-```
-{% endswagger-response %}
-{% endswagger %}
+_`"withdrawals":`_` ``{"display_`_`name": "", "wallet_address": "", "amount": "", "amount_fiat_worth": "", "date": "", "time": "", "days_since": "", "fee": "", "fee_fiat_worth"}`_
+
+_`}`_
