@@ -8,10 +8,8 @@ Server test
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="Example response >" %}
-```javascript
-{
-"response": 200
-}
-```
+<pre class="language-javascript"><code class="lang-javascript">{
+<strong>"wallety.org_server_status": 200
+</strong>}</code></pre>
 {% endswagger-response %}
 {% endswagger %}
