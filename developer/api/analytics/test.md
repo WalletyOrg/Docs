@@ -2,7 +2,7 @@
 
 Test our server response
 
-{% swagger method="get" path="" baseUrl="https://api.wallety.org" summary="" %}
+{% swagger method="get" path="/" baseUrl="https://api.wallety.org" summary="" %}
 {% swagger-description %}
 Server test
 {% endswagger-description %}

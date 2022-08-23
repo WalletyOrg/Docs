@@ -1,6 +1,6 @@
 # Custom unique wallets
 
-{% swagger method="get" path="" baseUrl="/custom-unique-wallets" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org/custom-unique-wallets" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -11,6 +11,10 @@ YOUR_API_KEY
 
 {% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
 WALLET_ADDRESS
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" type="String" name="network=" required="true" %}
+Network (e.g "polkadot")
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Example response >" %}

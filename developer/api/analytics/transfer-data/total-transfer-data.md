@@ -1,12 +1,16 @@
 # Total transfer data
 
-{% swagger method="get" path="" baseUrl="/total-transfers" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org/total-transfers" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
 YOUR_API_KEY
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" type="String" name="network=" required="true" %}
+Network (e.g "polkadot")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}

@@ -1,6 +1,6 @@
 # Custom transfer data
 
-{% swagger method="get" path="" baseUrl="/custom-transfers" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org/custom-transfers" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -13,11 +13,15 @@ YOUR_API_KEY
 WALLET_ADDRESS
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="network=" required="true" type="String" %}
+Network (e.g "polkadot")
+{% endswagger-parameter %}
+
 {% swagger-parameter in="path" name="from=" type="String" required="true" %}
 YYYY-MM-DD (e.g 2021-07-30)
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="to=" required="true" %}
+{% swagger-parameter in="path" name="to=" required="true" type="String" %}
 YYYY-MM-DD (e.g 2022-07-30)
 {% endswagger-parameter %}
 
