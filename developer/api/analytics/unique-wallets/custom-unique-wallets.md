@@ -9,12 +9,12 @@
 YOUR_API_KEY
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
-WALLET_ADDRESS
-{% endswagger-parameter %}
-
 {% swagger-parameter in="path" type="String" name="network=" required="true" %}
 Network (e.g "polkadot")
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
+WALLET_ADDRESS
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Example response >" %}

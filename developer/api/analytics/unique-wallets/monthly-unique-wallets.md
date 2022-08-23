@@ -1,16 +1,12 @@
 # Monthly unique wallets
 
-{% swagger method="get" path="" baseUrl="https://api.wallety.org/monthly-unique-wallets" summary="" %}
+{% swagger method="get" path="" baseUrl="/monthly-unique-wallets" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
 YOUR_API_KEY
-{% endswagger-parameter %}
-
-{% swagger-parameter in="path" name="network=" type="String" required="true" %}
-Network (e.g "polkadot")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
