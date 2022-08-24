@@ -18,10 +18,10 @@
     * [Chain state](developer/api/analytics/chain-state.md)
     * [On chain identity](developer/api/analytics/on-chain-identity.md)
     * [Balances](developer/api/analytics/balances.md)
-    * [Paper & diamond handed](developer/api/analytics/paper-and-diamond-handed.md)
+    * [Paper & diamond handed](developer/api/analytics/paper-diamond-handed.md)
     * [Other address formats](developer/api/analytics/other-address-formats.md)
     * [Transfers](developer/api/analytics/transfers.md)
-    * [Unique wallets](developer/api/analytics/unique-wallets.md)
+    * [Unique wallets](developer/api/analytics/unique-wallets/total-unique-wallets.md)
   * [Swap](developer/api/swap.md)
   * [Bridge](developer/api/bridge.md)
 

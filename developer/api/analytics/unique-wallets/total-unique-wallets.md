@@ -1,6 +1,6 @@
 # Unique wallets
 
-{% swagger method="get" path="" baseUrl="https://api.wallety.org/total-unique-wallets" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org/unique-wallets" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -24,8 +24,8 @@ dollar/euro/pound (defaults to dollar)
 {% swagger-response status="200: OK" description="Example response >" %}
 ```javascript
 {
-"total": {"display_name": "", "wallet_address": "", "volume": "", "volume_fiat_value": "", "percentage_weight": "fee", "fee_fiat_value": "", interaction_amount": "", "failure_amount" : "", "first_transaction": ["date": "", "time": "", "days_since": ""], "last_transaction": ["date": "", "time": "", "days_since": ""]}, 
 "deposits": {"display_name": "", "wallet_address": "", "volume": "", "volume_fiat_value": "", "percentage_weight": "fee", "fee_fiat_value": "", interaction_amount": "", "failure_amount" : "", "first_transaction": ["date": "", "time": "", "days_since": ""], "last_transaction": ["date": "", "time": "", "days_since": ""]}, 
+
 "withdrawals": {"display_name": "", "wallet_address": "", "volume": "", "volume_fiat_value": "", "percentage_weight": "fee", "fee_fiat_value": "", interaction_amount": "", "failure_amount" : "", "first_transaction": ["date": "", "time": "", "days_since": ""], "last_transaction": ["date": "", "time": "", "days_since": ""]}, 
 }
 ```
