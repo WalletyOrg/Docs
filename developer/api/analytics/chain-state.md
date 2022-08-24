@@ -2,7 +2,7 @@
 
 The specified chains token price, percentage change (24hr), market cap, current block number and last gas paid by a user on chain in token/fiat
 
-{% swagger method="get" path="" baseUrl="/chain-state" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org/chain-state" summary="" %}
 {% swagger-description %}
 Chain state
 {% endswagger-description %}
@@ -11,8 +11,12 @@ Chain state
 YOUR_API_KEY
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="network=" type="String" required="true" %}
+Network (e.g "polkadot")
+{% endswagger-parameter %}
+
 {% swagger-parameter in="path" name="currency=" type="String" %}
-dollar/euro/pound
+dollar/euro/pound (defaults to dollar)
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Example response >" %}
@@ -21,7 +25,7 @@ dollar/euro/pound
 "coin_price": "",
 "percentage_change_24hr": "",
 "market_cap": "",
-"block_number": "",
+"transfer_count": "",
 "last_gas": {"coin_amount": "", "fiat_worth": ""}
 }
 ```

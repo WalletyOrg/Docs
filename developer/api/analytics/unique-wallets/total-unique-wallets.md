@@ -1,12 +1,16 @@
 # Total unique wallets
 
-{% swagger method="get" path="" baseUrl="/total-unique-wallets" summary="" %}
+{% swagger method="get" path="" baseUrl="https://api.wallety.org/total-unique-wallets" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="api_key=" required="true" type="String" %}
 YOUR_API_KEY
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="network=" type="String" required="true" %}
+Network (e.g "polkadot")
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="wallet_address=" type="String" required="true" %}
