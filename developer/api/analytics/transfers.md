@@ -6,7 +6,7 @@
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="api_key=" type="String" required="true" %}
-YOUR_API_KEY{ 
+YOUR_API_KEY
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="network=" type="String" required="true" %}
@@ -17,17 +17,22 @@ Network (e.g "polkadot")
 WALLET_ADDRESS
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="currency=" type="String" %}
+dollar/euro/pound (defaults to dollar)
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Example response >" %}
-<pre class="language-javascript"><code class="lang-javascript">{
+```javascript
+{
+'deposit_transfers': [{'display_name': '', 'wallet_address': '', 
+'deposited': '', 'deposited_fiat_worth': '', 'txn_time': '',
+'days_since': '', 'gas_fee': '', 'gas_dollar_worth': ''}], 
 
 'withdraw_transfers': [{'coin_amount': '', 'coin_worth_dollar': '', 
 'display_name': '', 'wallet_address': '', 'txn_time': '', 'days_since': '',
-'gas_fee': '', 'gas_fee_fiat': ''}], 
-
-<strong>'deposit_transfers': [{'display_name': '', 'wallet_address': '', 
-</strong><strong>'deposited': '', 'deposited_fiat_worth': '', 'txn_time': '',
-</strong>'days_since': '', 'gas_fee': '', 'gas_dollar_worth': ''}],
+'gas_fee': '', 'gas_fee_fiat': ''}]
  
-}</code></pre>
+}
+```
 {% endswagger-response %}
 {% endswagger %}

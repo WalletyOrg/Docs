@@ -17,6 +17,10 @@ Network (e.g "polkadot")
 WALLET_ADDRESS
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="currency=" type="String" %}
+dollar/euro/pound (defaults to dollar)
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Example response >" %}
 ```javascript
 {
