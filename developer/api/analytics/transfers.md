@@ -25,13 +25,14 @@ dollar/euro/pound (defaults to dollar)
 ```javascript
 {
 'deposit_transfers': [{'display_name': '', 'wallet_address': '', 
-'deposited': '', 'deposited_fiat_worth': '', 'txn_time': '',
-'days_since': '', 'gas_fee': '', 'gas_dollar_worth': ''}], 
+                       'deposited': '', 'deposited_fiat_worth': '', 
+                       'txn_time': '', 'days_since': '', 'gas_fee': '', 
+                       'gas_dollar_worth': ''}], 
 
 'withdraw_transfers': [{'coin_amount': '', 'coin_worth_dollar': '', 
-'display_name': '', 'wallet_address': '', 'txn_time': '', 'days_since': '',
-'gas_fee': '', 'gas_fee_fiat': ''}]
- 
+                        'display_name': '', 'wallet_address': '', 
+                        'txn_time': '', 'days_since': '', 'gas_fee': '', 
+                        'gas_fee_fiat': ''}]
 }
 ```
 {% endswagger-response %}

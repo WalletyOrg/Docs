@@ -24,7 +24,11 @@ dollar/euro/pound (defaults to dollar)
 {% swagger-response status="200: OK" description="Example response >" %}
 ```javascript
 {
-"diamond_handed: ""
+'paper_handed': {'paper_handed_coins': '',
+                 'paper_handed_coins_fiat_worth': ''}, 
+
+'diamond_handed': {'diamond_handed_coins': '',
+                   'diamond_handed_coins_fiat_worth': ''}
 }
 ```
 {% endswagger-response %}
