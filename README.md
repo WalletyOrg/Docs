@@ -10,4 +10,4 @@ We will connect multiple chains and protocols to allow users to interact with mu
 
 By unifying dApps we can create a first point of contact for users and builders to interact with multiple blockchains seamlessly
 
-<figure><img src=".gitbook/assets/wallety-enables.png" alt=""><figcaption><p>Wallety enables</p></figcaption></figure>
+<figure><img src=".gitbook/assets/wallety-enables (1).png" alt=""><figcaption><p>Wallety enables</p></figcaption></figure>
