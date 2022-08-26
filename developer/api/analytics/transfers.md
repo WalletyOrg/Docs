@@ -17,11 +17,24 @@ Network (e.g "polkadot")
 WALLET_ADDRESS
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="currency=" type="String" %}
+dollar/euro/pound (defaults to dollar)
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Example response >" %}
 ```javascript
 {
-"deposits": {"display_name": "", "wallet_address": "", "amount": "", "amount_fiat_worth": "", "date": "", "time": "", "days_since": "", "fee": "", "fee_fiat_worth"}, 
-"withdrawals": {"display_name": "", "wallet_address": "", "amount": "", "amount_fiat_worth": "", "date": "", "time": "", "days_since": "", "fee": "", "fee_fiat_worth"}
+'deposited_transfers': [{'display_name': '', 'wallet_address': '', 
+                       'deposited_coin': '', 'deposited_coin_dollar': '', 
+                       'txn_time': '', 'days_since': '', 'gas_fee': '', 
+                       'gas_fee_dollar': ''}
+                       ], 
+
+'withdraw_transfers': [{'withdrawn_coin': '', 'withdrawn_coin_dollar': '', 
+                        'display_name': '', 'wallet_address': '', 
+                        'txn_time': '', 'days_since': '', 'gas_fee': '', 
+                        'gas_fee_dollar': ''}
+                        ]
 }
 ```
 {% endswagger-response %}

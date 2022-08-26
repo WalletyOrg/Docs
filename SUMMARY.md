@@ -21,8 +21,10 @@
     * [Other address formats](developer/api/analytics/other-address-formats.md)
     * [Transfers](developer/api/analytics/transfers.md)
     * [Unique wallets](developer/api/analytics/unique-wallets/total-unique-wallets.md)
-  * [Swap](developer/api/swap.md)
-  * [Bridge](developer/api/bridge.md)
+  * [Swap](developer/api/swap/README.md)
+    * [Swap](developer/api/swap/swap.md)
+  * [Bridge](developer/api/bridge/README.md)
+    * [Bridge](developer/api/bridge/bridge.md)
 
 ## 👋 Contact Us
 
