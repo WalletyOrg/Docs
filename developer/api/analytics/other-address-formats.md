@@ -20,8 +20,8 @@ WALLET_ADDRESS
 {% swagger-response status="200: OK" description="" %}
 ```javascript
 {
-    "polkadot_address": "", 
-    "kusama_address": ""
+    'polkadot_address': '', 
+    'kusama_address': ''
 }
 ```
 {% endswagger-response %}

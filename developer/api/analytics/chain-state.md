@@ -22,11 +22,11 @@ dollar/euro/pound (defaults to dollar)
 {% swagger-response status="200: OK" description="Example response >" %}
 ```javascript
 {
-"coin_price": "",
-"percentage_change_24hr": "",
-"market_cap": "",
-"transfer_count": "",
-"last_gas": {"coin_amount": "", "fiat_worth": ""}
+'coin_price': '',
+'percentage_change_24hr': '',
+'market_cap': '',
+'transfer_count': '',
+'last_gas': {'coin_amount': '', 'fiat_worth': ''}
 }
 ```
 {% endswagger-response %}

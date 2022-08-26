@@ -17,13 +17,17 @@ Network (e.g "polkadot")
 WALLET_ADDRESS
 {% endswagger-parameter %}
 
+{% swagger-parameter in="path" name="currency=" type="String" %}
+dollar/euro/pound (defaults to dollar)
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Example response >" %}
 ```javascript
 {
-"total_balance": {"coin": "", "fiat_worth": ""},
-"transferable_balance": {"coin": "", "fiat_worth": ""},
-"locked_balance": {"coin": "", "fiat_worth": ""},
-"reserved_balance": {"coin": "", "fiat_worth": ""}
+'total_balance': {'coin': '', 'fiat_worth': ''},
+'transferable_balance': {'coin': '', 'fiat_worth': ''},
+'locked_balance': {'coin': '', 'fiat_worth': ''},
+'reserved_balance': {'coin': '', 'fiat_worth': ''}
 }
 ```
 {% endswagger-response %}

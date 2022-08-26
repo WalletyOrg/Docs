@@ -21,11 +21,11 @@ WALLET_ADDRESS
 
 {% swagger-response status="200: OK" description="Example response >" %}
 <pre class="language-javascript"><code class="lang-javascript"><strong>{
-</strong>"display_name": "",
-"legal_name": "",
-"index": "", 
-"role": "", 
-"socials": {"twitter": "", "website": "", "email": "", "element": ""}
+</strong>'display_name': '',
+'legal_name': '',
+'index': '', 
+'role': '', 
+'socials': {'twitter': '', 'website': '', 'email': '', 'element': ''}
 }</code></pre>
 {% endswagger-response %}
 {% endswagger %}
