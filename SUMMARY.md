@@ -8,9 +8,9 @@
 
 ## ⏩ Developer
 
-* [Introduction](developer/introduction/README.md)
-  * [Get keys](developer/introduction/get-keys.md)
-  * [Service Status](developer/introduction/service-status.md)
+* [API Introduction](developer/api-introduction/README.md)
+  * [Get keys](developer/api-introduction/get-keys.md)
+  * [Service Status](developer/api-introduction/service-status.md)
 * [Analytics](developer/analytics/README.md)
   * [Server test](developer/analytics/server-test.md)
   * [Chain state](developer/analytics/chain-state.md)
