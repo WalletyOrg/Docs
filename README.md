@@ -4,7 +4,7 @@ cover: .gitbook/assets/twitter_background.png
 coverY: -280.7361963190184
 ---
 
-# Intro to Wallety
+# ➡ Intro to Wallety
 
 Wallety will connect multiple chains and protocols to allow users to interact with multiple cross chain economies within one UI/API.
 
