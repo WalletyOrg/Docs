@@ -1,5 +1,7 @@
 ---
 description: Introduction to Wallety
+cover: .gitbook/assets/twitter_background.png
+coverY: 0
 ---
 
 # Intro to Wallety
