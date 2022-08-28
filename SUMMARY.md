@@ -6,7 +6,7 @@
 * [Getting Started](introduction/getting-started.md)
 * [Demo](https://www.wallety.org/demo)
 
-## ⏩ Developer
+## ➡ Developer
 
 * [API Introduction](developer/api-introduction/README.md)
   * [Get keys](developer/api-introduction/get-keys.md)
@@ -27,7 +27,7 @@
 * [Bridge](developer/bridge/README.md)
   * [Bridge](developer/bridge/bridge.md)
 
-## 📘 Contact Us
+## ➡ Contact Us
 
 * [Contact](contact-us/contact.md)
 
