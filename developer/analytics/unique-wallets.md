@@ -22,24 +22,24 @@ dollar/euro/pound (defaults to dollar)
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Example response >" %}
-```javascript
-{
-'unique_deposits': [{'display_name': '', 'wallet_address': '', 'coin_volume': '', 
-                    'coin_volume_dollars': '', 'percentage_of_deposits': '', 
-                    'gas_fee': '', 'gas_fee_dollar': '', 'interaction_times': '', 
-                    'failed_interaction_times' : '', 
-                    'first_txn': {'date': '', 'days_since': ''}, 
-                    'last_txn': {'date': '', 'days_since': ''}
-                    }], 
+<pre class="language-javascript"><code class="lang-javascript">{
+'unique_deposits': [{'display_name': '', 'wallet_address': '', 
+                     'total_coin_volume': '', 'total_coin_volume_dollars': '', 
+                     'total_percentage_of_deposits': '', 'total_gas_fee': '', 
+                     'total_gas_fee_dollar': '', 'total_interaction_times': '', 
+                     'total_failed_interaction_times' : '', 
+                     'first_txn': {'date': '', 'days_since': ''}, 
+                     'last_txn': {'date': '', 'days_since': ''}
+                     }], 
 
-'unique_withdrawals': [{'display_name': '', 'wallet_address': '', 'coin_volume': '', 
-                    'coin_volume_dollars': '', 'percentage_of_withdrawals': '', 
-                    'gas_fee': '', 'gas_fee_dollar': '', 'interaction_times': '', 
-                    'failed_interaction_times' : '', 
-                    'first_txn': {'date': '', 'days_since': ''}, 
-                    'last_txn': {'date': '', 'days_since': ''}
-                    }], 
-}
-```
+'unique_withdrawals': [{'display_name': '', 'wallet_address': '', 
+                        'total_coin_volume': '', 'total_coin_volume_dollars': '', 
+<strong>                        'total_percentage_of_withdrawals': '', 'total_gas_fee': '', 
+</strong>                        'total_gas_fee_dollar': '', 'total_interaction_times': '', 
+                        'total_failed_interaction_times' : '', 
+                        'first_txn': {'date': '', 'days_since': ''}, 
+                        'last_txn': {'date': '', 'days_since': ''}
+                        }], 
+}</code></pre>
 {% endswagger-response %}
 {% endswagger %}
