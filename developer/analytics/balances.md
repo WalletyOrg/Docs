@@ -1,4 +1,10 @@
+---
+description: Balances
+---
+
 # Balances
+
+The token balances of a users wallet address.
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/balances" summary="" %}
 {% swagger-description %}
