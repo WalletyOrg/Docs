@@ -1,7 +1,3 @@
----
-description: Bridge
----
-
 # Bridge
 
-Coming soon !
+Coming soon!

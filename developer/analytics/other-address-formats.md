@@ -1,7 +1,3 @@
----
-description: Other address formats
----
-
 # Other address formats
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/other-address-formats" summary="" %}

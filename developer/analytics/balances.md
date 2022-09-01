@@ -1,7 +1,3 @@
----
-description: Balances
----
-
 # Balances
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/balances" summary="" %}

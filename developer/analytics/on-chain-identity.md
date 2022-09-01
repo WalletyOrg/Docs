@@ -1,7 +1,3 @@
----
-description: On chain identity
----
-
 # On chain identity
 
 Specified wallet addresses on chain display name, legal name, index, users role, and social media profiles

@@ -1,7 +1,3 @@
----
-description: Unique wallets
----
-
 # Unique wallets
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/unique-wallets" summary="" %}

@@ -1,7 +1,3 @@
----
-description: Server test
----
-
 # Server test
 
 Test our server response
