@@ -1,4 +1,10 @@
+---
+description: Unique wallets
+---
+
 # Unique wallets
+
+Unique wallets lets you see a wallets withdrawal and deposited interactions with individual addresses they have transacted with.
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/unique-wallets" summary="" %}
 {% swagger-description %}

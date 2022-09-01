@@ -1,12 +1,4 @@
----
-description: Paper & diamond handed
----
-
 # Paper & diamond handed
-
-Paper handed lets you see the amount of funds you have lost from transferring assets out of your wallet.
-
-Diamond handed lets you see the amount of funds you have gained from holding assets in your wallet.
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/paper-diamond-handed" summary="" %}
 {% swagger-description %}

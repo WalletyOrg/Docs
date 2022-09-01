@@ -1,10 +1,6 @@
----
-description: On chain identity
----
-
 # On chain identity
 
-Specified wallet addresses on chain display name, legal name, index, users role, and social media profiles.
+Specified wallet addresses on chain display name, legal name, index, users role, and social media profiles
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/on-chain-identity" summary="" %}
 {% swagger-description %}
