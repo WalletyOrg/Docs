@@ -1,10 +1,4 @@
----
-description: Other address formats
----
-
 # Other address formats
-
-A wallets Substrate addresses.
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/other-address-formats" summary="" %}
 {% swagger-description %}

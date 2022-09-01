@@ -1,10 +1,4 @@
----
-description: Transfers
----
-
 # Transfers
-
-A specified wallets unformatted deposit and withdrawal transfers.
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/transfers" summary="" %}
 {% swagger-description %}
