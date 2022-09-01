@@ -1,3 +1,7 @@
+---
+description: Paper & diamond handed
+---
+
 # Paper & diamond handed
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/paper-diamond-handed" summary="" %}

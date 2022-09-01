@@ -1,6 +1,10 @@
+---
+description: Chain state
+---
+
 # Chain state
 
-The specified chains token price, percentage change (24hr), market cap, current block number and last gas paid by a user on chain in token/fiat
+The specified chains token price, percentage change (24hr), market cap, current block number and last gas paid by a user on chain in token/fiat.
 
 {% swagger method="get" path="" baseUrl="https://api.wallety.org/chain-state" summary="" %}
 {% swagger-description %}

@@ -1,17 +1,16 @@
+---
+description: Contact us
+---
+
 # Contact
 
-Email: [hello@wallety.org](mailto:hello@wallety.org)
-
-Website: [Wallety.org](https://www.wallety.org)
-
-Twitter: [@WalletyOrg](https://www.twitter.com/WalletyOrg)
-
-Telegram: [WalletyOrg](https://www.t.me/WalletyOrg)
-
-Github: [WalletyOrg](https://www.github.com/WalletyOrg)
-
-Medium: [WalletyOrg](https://www.walletyorg.medium.com)
-
-Linkedin: [WalletyOrg](https://www.linkedin.com/company/WalletyOrg)
-
-Linktree: [WalletyOrg](https://www.linktr.ee/WalletyOrg)
+| Social   | Link                                                       |
+| -------- | ---------------------------------------------------------- |
+| Website  | [Wallety.org](https://www.wallety.org)                     |
+| Email    | [hello@wallety.org](mailto:hello@wallety.org)              |
+| Twitter  | [twitter.com/WalletyOrg](https://twitter.com/WalletyOrg)   |
+| Telegram | [t.me/WalletyOrg](https://t.me/WalletyOrg)                 |
+| GitHub   | [github.com/WalletyOrg](https://github.com/WalletyOrg)     |
+| Medium   | [WalletyOrg.medium.com](https://walletyorg.medium.com/)    |
+| LinkedIn | [WalletyOrg](https://www.linkedin.com/company/walletyorg/) |
+| LinkTree | [linktr.ee/WalletyOrg](https://linktr.ee/WalletyOrg)       |
